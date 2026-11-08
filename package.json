@@ -1,0 +1,20 @@
+{
+  "name": "fuchsenskript-lernapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lernhelfer für Brander- und Burschenprüfung der K.a.V. Bajuvaria (Capacitor-Android-App + PWA)",
+  "scripts": {
+    "serve": "npx --yes http-server www -p 8080 -c-1",
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "icons": "npx --yes @capacitor/assets@3.0.5 generate --android --iconBackgroundColor '#14204a' --splashBackgroundColor '#14204a'",
+    "apk:debug": "npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/core": "6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "at.bajuvaria.fuchsenskript",
+  "appName": "Fuchsenskript",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#14204a"
+  }
+}
